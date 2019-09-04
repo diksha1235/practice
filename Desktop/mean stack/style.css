@@ -1,0 +1,169 @@
+.parentDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.client{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.parentclass2{
+    display: flex;
+
+}
+.clientimage1{
+    display: flex;
+    flex-flow: column;
+   
+}
+
+.imagess{
+    padding: 20px;
+    
+}
+
+.main{
+    opacity: 0.8;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color:#1b1b1b;
+}
+.img{
+    width: 111px;
+    height: 43px;
+    object-fit: contain;
+}
+.p1{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #9fa3a7;
+}
+.p2{
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #f16e20;
+}
+.img1{
+    width: 73px;
+    height: 73px;
+    object-fit: contain;
+  }
+.p3{
+    
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--black)
+}
+.p4{
+   
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8b8b8b;
+}
+.img2{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+.img3{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+.img4{
+    width: 483px;
+    height: 387px;
+    object-fit: contain;
+}
+@media screen and(max-width: 1400px){
+    .parentDiv .head .main{
+        font-size: 60px;
+    }
+
+}
+@media screen and (max-width: 960px){
+    .parentDiv .head .main {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and(max-width: 1400px){
+    .parentDiv .head {
+        font-size: 60px;
+        
+    }
+
+}
+@media screen and (max-width: 960px){
+    .parentDiv .head  {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and(max-width: 1400px){
+    .parentDiv .client .navigationArrow{
+        font-size: 60px;
+    }
+
+}
+@media screen and (max-width: 960px){
+    .parentDiv .client .navigationArrow {
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 768px) { 
+    .parentDiv {
+       
+        margin: 20px auto;
+        display: block;
+    
+    }
+    .client{
+        
+        align-items: center;
+    }
+     .parentDiv .client .clientimage{
+         text-align: center;
+     }
+    
+ }
+  @media (max-width: 768px) { 
+    .parentDiv .imagess{
+       
+        margin: 5px;
+        display: block;
+    
+    }
+
+  }
+
+ 
+
+  
